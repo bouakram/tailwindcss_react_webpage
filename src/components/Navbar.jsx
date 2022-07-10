@@ -8,7 +8,7 @@ function Navbar() {
     }
     return (
         //nav bar container
-        <div className='w-screen h-[80px] z-10 bg-zinc-200 sticky shadow-lg'>
+        <div className='w-full h-[80px] z-10 bg-zinc-200 sticky top-0 shadow-lg'>
             {/* nav bar content */}
             <div className="px-2 flex justify-between items-center w-full h-full">
                 <div className="flex items-center">
@@ -26,7 +26,7 @@ function Navbar() {
                     <button className='border-none bg-transparent text-indigo-400 hover:bg-indigo-400 hover:text-white'>Sign up</button>
                 </div>
                 {/* swich between the icons close and open */}
-            {nav ? <XIcon onClick={toggleNav} className='w-5 cursor-pointer sm:hidden'/>:<MenuIcon onClick={toggleNav} className='w-5 cursor-pointer sm:hidden'/>}
+            {nav ? <XIcon onClick={toggleNav} className='w-5 cursor-pointer sm:hidden hover:text-indigo-400'/>:<MenuIcon onClick={toggleNav} className='w-5 cursor-pointer sm:hidden hover:text-indigo-400'/>}
             </div>
 
             {/* drop down menu */}
@@ -37,10 +37,11 @@ function Navbar() {
             <li className=''>Support</li>
             <li className=''>Platforms</li>
             <li className=''>Pricing</li>
-            <div className='space-y-2 flex flex-col'>
+            <div>
             <button className='border-none bg-transparent text-indigo-400 hover:bg-indigo-400 hover:text-white '>Sign in</button>
-            <button className='border-none bg-transparent text-indigo-400 hover:bg-indigo-400 hover:text-white'>Sign up</button>
+            <button className='border-none bg-transparent text-indigo-400 hover:bg-indigo-400 hover:text-white '>Sign up</button>
             </div>
+            
             </ul>}
         </div>
     )
