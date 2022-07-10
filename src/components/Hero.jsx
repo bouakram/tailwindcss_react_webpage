@@ -17,7 +17,7 @@ function Hero() {
                 </div>
                 <div className='bg-zinc-200 flex flex-col justify-between items-center space-y-2 border p-5 mt-4 rounded-lg drop-shadow-lg sm:relative sm:left-1/2'>
                     <p>Data Servicesse</p>
-                    <div className='flex flex-col space-y-2 sm:flex-row sm:space-x-2'>
+                    <div className='flex flex-col sm:flex-row sm:space-x-2'>
                         <p className='flex py-2 px-2 text-gray-500'><CloudUploadIcon className="h-6 text-indigo-500" /> App Security</p>
                         <p className='flex py-2 px-2 text-gray-500'><DatabaseIcon className="h-6 text-indigo-500" /> Dashboard Design</p>
                         <p className='flex py-2 px-2 text-gray-500'><ServerIcon className="h-6 text-indigo-500" /> Cloud Data</p>
