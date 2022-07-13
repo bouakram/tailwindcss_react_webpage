@@ -5,7 +5,7 @@ import supportimg from '../img/support.jpg'
 
 function Support() {
     return (
-        <div className='w-full h-full sm:h-screen'>
+        <div className='w-full '>
             <div className='w-full h-[700px] bg-gray-900/70 absolute'>
                 <img src={supportimg} alt="" className='w-full h-full object-cover mix-blend-overlay' />
             </div>

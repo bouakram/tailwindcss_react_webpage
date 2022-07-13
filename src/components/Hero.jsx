@@ -7,7 +7,7 @@ function Hero() {
         <div className='w-full h-full sm:h-screen bg-zinc-200 flex flex-col justify-between'>
             <div className='grid sm:grid-cols-2 max-w-[1240px] m-auto'>
                 <div className='flex flex-col justify-center items-center sm:items-start w-full px-2 py-8'>
-                    <p className='text-2xl'>Unique Sequincing & Production</p>
+                    <p className='text-1xl'>Unique Sequincing & Production</p>
                     <h1 className='py-3 text-4xl sm:text-6xl font-bold'>Cloud Managment</h1>
                     <p className='text-wxl'>This is our Tech Brand.</p>
                     <button className='my-2'>Get Started</button>
